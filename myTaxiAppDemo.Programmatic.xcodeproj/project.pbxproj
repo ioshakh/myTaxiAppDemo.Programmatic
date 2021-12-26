@@ -8,22 +8,117 @@
 
 /* Begin PBXBuildFile section */
 		BE2B198027763183009472E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B197F27763183009472E7 /* AppDelegate.swift */; };
-		BE2B198227763183009472E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B198127763183009472E7 /* SceneDelegate.swift */; };
-		BE2B198427763183009472E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B198327763183009472E7 /* ViewController.swift */; };
-		BE2B198727763183009472E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2B198527763183009472E7 /* Main.storyboard */; };
 		BE2B198927763184009472E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2B198827763184009472E7 /* Assets.xcassets */; };
 		BE2B198C27763184009472E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE2B198A27763184009472E7 /* LaunchScreen.storyboard */; };
+		BE2B1994277631F1009472E7 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B1993277631F1009472E7 /* HomeVC.swift */; };
+		BE6952C427775E7000613F33 /* Localize_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = BE6952C327775E7000613F33 /* Localize_Swift */; };
+		BE6952CB277761D200613F33 /* PanModal in Frameworks */ = {isa = PBXBuildFile; productRef = BE6952CA277761D200613F33 /* PanModal */; };
+		BE6952EA27776C6800613F33 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952D727776C6600613F33 /* Montserrat-Thin.ttf */; };
+		BE6952EB27776C6800613F33 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952D827776C6700613F33 /* Montserrat-BlackItalic.ttf */; };
+		BE6952EC27776C6800613F33 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952D927776C6700613F33 /* Montserrat-Black.ttf */; };
+		BE6952ED27776C6800613F33 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952DA27776C6700613F33 /* Montserrat-SemiBoldItalic.ttf */; };
+		BE6952EE27776C6800613F33 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952DB27776C6700613F33 /* Montserrat-ExtraBold.ttf */; };
+		BE6952EF27776C6800613F33 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952DC27776C6700613F33 /* Montserrat-BoldItalic.ttf */; };
+		BE6952F027776C6800613F33 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952DD27776C6700613F33 /* Montserrat-ExtraLightItalic.ttf */; };
+		BE6952F127776C6800613F33 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952DE27776C6700613F33 /* Montserrat-Regular.ttf */; };
+		BE6952F227776C6800613F33 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952DF27776C6700613F33 /* Montserrat-SemiBold.ttf */; };
+		BE6952F327776C6800613F33 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952E027776C6800613F33 /* Montserrat-MediumItalic.ttf */; };
+		BE6952F427776C6800613F33 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952E127776C6800613F33 /* Montserrat-ExtraBoldItalic.ttf */; };
+		BE6952F527776C6800613F33 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952E227776C6800613F33 /* Montserrat-ThinItalic.ttf */; };
+		BE6952F627776C6800613F33 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952E327776C6800613F33 /* Montserrat-Medium.ttf */; };
+		BE6952F727776C6800613F33 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952E427776C6800613F33 /* Montserrat-ExtraLight.ttf */; };
+		BE6952F827776C6800613F33 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952E527776C6800613F33 /* Montserrat-Italic.ttf */; };
+		BE6952F927776C6800613F33 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952E627776C6800613F33 /* Montserrat-LightItalic.ttf */; };
+		BE6952FA27776C6800613F33 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952E727776C6800613F33 /* Montserrat-Light.ttf */; };
+		BE6952FB27776C6800613F33 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE6952E827776C6800613F33 /* Montserrat-Bold.ttf */; };
+		BE6952FC27776C6800613F33 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE6952E927776C6800613F33 /* OFL.txt */; };
+		BE69530D277781E400613F33 /* UILabel + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69530C277781E400613F33 /* UILabel + extensions.swift */; };
+		BE69531027778B5800613F33 /* HomeVCProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69530F27778B5800613F33 /* HomeVCProtocols.swift */; };
+		BE6953132777AB9800613F33 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6953122777AB9800613F33 /* UIColor + Extension.swift */; };
+		BE6953152777ABB700613F33 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6953142777ABB700613F33 /* UIView + Extension.swift */; };
+		BE6953172777AC3300613F33 /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6953162777AC3300613F33 /* UIStackView + Extension.swift */; };
+		BE69531C2777E57000613F33 /* LGSideMenuController in Frameworks */ = {isa = PBXBuildFile; productRef = BE69531B2777E57000613F33 /* LGSideMenuController */; };
+		BE69531E2777E68D00613F33 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69531D2777E68D00613F33 /* SideMenuViewController.swift */; };
+		BE6953212777EE1300613F33 /* SlideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6953202777EE1300613F33 /* SlideTableViewCell.swift */; };
+		BE6953252777EFEF00613F33 /* SlideModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6953242777EFEF00613F33 /* SlideModel.swift */; };
+		BE6953282777F15400613F33 /* ViewModelPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6953272777F15400613F33 /* ViewModelPresentable.swift */; };
+		BE69532A2777F1B900613F33 /* SlideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6953292777F1B900613F33 /* SlideViewModel.swift */; };
+		BE69532D2777F25E00613F33 /* Table view + resouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69532C2777F25E00613F33 /* Table view + resouble.swift */; };
+		BE695331277801C400613F33 /* TripHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE695330277801C400613F33 /* TripHistoryVC.swift */; };
+		BE695333277806E400613F33 /* TripDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE695332277806E400613F33 /* TripDetailModel.swift */; };
+		BE695335277808A000613F33 /* TripModelPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE695334277808A000613F33 /* TripModelPresentable.swift */; };
+		BE695337277808D800613F33 /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE695336277808D800613F33 /* TripViewModel.swift */; };
+		BE695339277809E700613F33 /* TripTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE695338277809E700613F33 /* TripTableCell.swift */; };
+		BE69534427781F7C00613F33 /* TripDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69534327781F7B00613F33 /* TripDetailViewController.swift */; };
+		BE6953472778204B00613F33 /* TripViewDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6953462778204B00613F33 /* TripViewDetailModel.swift */; };
+		BE69534A277820A500613F33 /* firstDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE695349277820A500613F33 /* firstDetailCell.swift */; };
+		BE69534C277820B800613F33 /* secondDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69534B277820B800613F33 /* secondDetailCell.swift */; };
+		BE69534E277820CE00613F33 /* thirdDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69534D277820CE00613F33 /* thirdDetailCell.swift */; };
+		BE695350277820E500613F33 /* fourthDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE69534F277820E500613F33 /* fourthDetailCell.swift */; };
+		BE695352277820F700613F33 /* fifthDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE695351277820F700613F33 /* fifthDetailCell.swift */; };
+		BE6953542778210B00613F33 /* sixthDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6953532778210B00613F33 /* sixthDetailCell.swift */; };
+		BE6AA3BA277638BB003FA49B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6AA3B9277638BB003FA49B /* Assets.swift */; };
+		BE6AA3BC277638CC003FA49B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6AA3BB277638CC003FA49B /* Fonts.swift */; };
+		BE6AA3BF277638E2003FA49B /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6AA3BE277638E2003FA49B /* Strings.swift */; };
+		BED474B327773089009EEB75 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BED474B227773089009EEB75 /* SnapKit */; };
+		BED474B827773589009EEB75 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BED474B727773589009EEB75 /* Alamofire */; };
+		BED474BC2777416E009EEB75 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = BED474BB2777416E009EEB75 /* GoogleMaps */; };
+		BED474BE2777416E009EEB75 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = BED474BD2777416E009EEB75 /* GooglePlaces */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BE2B197C27763183009472E7 /* myTaxiAppDemo.Programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTaxiAppDemo.Programmatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE2B197F27763183009472E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE2B198127763183009472E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE2B198327763183009472E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE2B198627763183009472E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE2B198827763184009472E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE2B198B27763184009472E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE2B198D27763184009472E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE2B1993277631F1009472E7 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BE6952D727776C6600613F33 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		BE6952D827776C6700613F33 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		BE6952D927776C6700613F33 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		BE6952DA27776C6700613F33 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		BE6952DB27776C6700613F33 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BE6952DC27776C6700613F33 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BE6952DD27776C6700613F33 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		BE6952DE27776C6700613F33 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		BE6952DF27776C6700613F33 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		BE6952E027776C6800613F33 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		BE6952E127776C6800613F33 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		BE6952E227776C6800613F33 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		BE6952E327776C6800613F33 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		BE6952E427776C6800613F33 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		BE6952E527776C6800613F33 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		BE6952E627776C6800613F33 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		BE6952E727776C6800613F33 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		BE6952E827776C6800613F33 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		BE6952E927776C6800613F33 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		BE69530C277781E400613F33 /* UILabel + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + extensions.swift"; sourceTree = "<group>"; };
+		BE69530F27778B5800613F33 /* HomeVCProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCProtocols.swift; sourceTree = "<group>"; };
+		BE6953122777AB9800613F33 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		BE6953142777ABB700613F33 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		BE6953162777AC3300613F33 /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		BE69531D2777E68D00613F33 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		BE6953202777EE1300613F33 /* SlideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTableViewCell.swift; sourceTree = "<group>"; };
+		BE6953242777EFEF00613F33 /* SlideModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideModel.swift; sourceTree = "<group>"; };
+		BE6953272777F15400613F33 /* ViewModelPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelPresentable.swift; sourceTree = "<group>"; };
+		BE6953292777F1B900613F33 /* SlideViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideViewModel.swift; sourceTree = "<group>"; };
+		BE69532C2777F25E00613F33 /* Table view + resouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Table view + resouble.swift"; sourceTree = "<group>"; };
+		BE695330277801C400613F33 /* TripHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHistoryVC.swift; sourceTree = "<group>"; };
+		BE695332277806E400613F33 /* TripDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailModel.swift; sourceTree = "<group>"; };
+		BE695334277808A000613F33 /* TripModelPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModelPresentable.swift; sourceTree = "<group>"; };
+		BE695336277808D800613F33 /* TripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
+		BE695338277809E700613F33 /* TripTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableCell.swift; sourceTree = "<group>"; };
+		BE69534327781F7B00613F33 /* TripDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewController.swift; sourceTree = "<group>"; };
+		BE6953462778204B00613F33 /* TripViewDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewDetailModel.swift; sourceTree = "<group>"; };
+		BE695349277820A500613F33 /* firstDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstDetailCell.swift; sourceTree = "<group>"; };
+		BE69534B277820B800613F33 /* secondDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondDetailCell.swift; sourceTree = "<group>"; };
+		BE69534D277820CE00613F33 /* thirdDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdDetailCell.swift; sourceTree = "<group>"; };
+		BE69534F277820E500613F33 /* fourthDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthDetailCell.swift; sourceTree = "<group>"; };
+		BE695351277820F700613F33 /* fifthDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthDetailCell.swift; sourceTree = "<group>"; };
+		BE6953532778210B00613F33 /* sixthDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixthDetailCell.swift; sourceTree = "<group>"; };
+		BE6AA3B9277638BB003FA49B /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		BE6AA3BB277638CC003FA49B /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		BE6AA3BE277638E2003FA49B /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +126,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED474B327773089009EEB75 /* SnapKit in Frameworks */,
+				BE69531C2777E57000613F33 /* LGSideMenuController in Frameworks */,
+				BED474BE2777416E009EEB75 /* GooglePlaces in Frameworks */,
+				BE6952CB277761D200613F33 /* PanModal in Frameworks */,
+				BE6952C427775E7000613F33 /* Localize_Swift in Frameworks */,
+				BED474B827773589009EEB75 /* Alamofire in Frameworks */,
+				BED474BC2777416E009EEB75 /* GoogleMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +158,267 @@
 		BE2B197E27763183009472E7 /* myTaxiAppDemo.Programmatic */ = {
 			isa = PBXGroup;
 			children = (
-				BE2B197F27763183009472E7 /* AppDelegate.swift */,
-				BE2B198127763183009472E7 /* SceneDelegate.swift */,
-				BE2B198327763183009472E7 /* ViewController.swift */,
-				BE2B198527763183009472E7 /* Main.storyboard */,
-				BE2B198827763184009472E7 /* Assets.xcassets */,
-				BE2B198A27763184009472E7 /* LaunchScreen.storyboard */,
+				BE2B199827763288009472E7 /* Application */,
+				BE2B19952776322E009472E7 /* Scenes */,
+				BE6953232777EF4900613F33 /* Models */,
+				BE6953262777F13900613F33 /* ViewModelPresentable */,
+				BE6953222777EF2A00613F33 /* ViewModels */,
+				BE69531F2777EDF300613F33 /* Cells */,
+				BE69530E27778B1100613F33 /* Protocols */,
+				BE69532B2777F23400613F33 /* Utilities */,
+				BE69530B277781C900613F33 /* Extensions */,
+				BE6AA3B82776389F003FA49B /* Generated */,
+				BE2B199A277632D4009472E7 /* Resources */,
 				BE2B198D27763184009472E7 /* Info.plist */,
 			);
 			path = myTaxiAppDemo.Programmatic;
+			sourceTree = "<group>";
+		};
+		BE2B19952776322E009472E7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BE6953112777AB7700613F33 /* Main */,
+				BE69532E2778015B00613F33 /* SideMenuView */,
+				BE69532F2778019500613F33 /* TripHistory */,
+				BE69534227781F4F00613F33 /* TripDetailView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		BE2B199827763288009472E7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BE2B197F27763183009472E7 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BE2B199A277632D4009472E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BED38C7327774EE90058CAB1 /* Fonts */,
+				BE2B198827763184009472E7 /* Assets.xcassets */,
+				BE2B198A27763184009472E7 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BE69530B277781C900613F33 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE69530C277781E400613F33 /* UILabel + extensions.swift */,
+				BE6953122777AB9800613F33 /* UIColor + Extension.swift */,
+				BE6953142777ABB700613F33 /* UIView + Extension.swift */,
+				BE6953162777AC3300613F33 /* UIStackView + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE69530E27778B1100613F33 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BE69530F27778B5800613F33 /* HomeVCProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BE6953112777AB7700613F33 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BE2B1993277631F1009472E7 /* HomeVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BE69531F2777EDF300613F33 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BE69534027781EF800613F33 /* SlideCell */,
+				BE69534127781F0600613F33 /* TripCell */,
+				BE6953482778208500613F33 /* TripDetailCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BE6953222777EF2A00613F33 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BE69533E27781EC600613F33 /* SlideViewModel */,
+				BE69533F27781EDE00613F33 /* TripVIewModel */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BE6953232777EF4900613F33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE69533A27781E6900613F33 /* SlideModel */,
+				BE69533B27781E7500613F33 /* TripModel */,
+				BE6953452778202200613F33 /* TripDetailModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE6953262777F13900613F33 /* ViewModelPresentable */ = {
+			isa = PBXGroup;
+			children = (
+				BE69533C27781E8F00613F33 /* ViewModelPresentable */,
+				BE69533D27781EA400613F33 /* TripModelPresentable */,
+			);
+			path = ViewModelPresentable;
+			sourceTree = "<group>";
+		};
+		BE69532B2777F23400613F33 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BE69532C2777F25E00613F33 /* Table view + resouble.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BE69532E2778015B00613F33 /* SideMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				BE69531D2777E68D00613F33 /* SideMenuViewController.swift */,
+			);
+			path = SideMenuView;
+			sourceTree = "<group>";
+		};
+		BE69532F2778019500613F33 /* TripHistory */ = {
+			isa = PBXGroup;
+			children = (
+				BE695330277801C400613F33 /* TripHistoryVC.swift */,
+			);
+			path = TripHistory;
+			sourceTree = "<group>";
+		};
+		BE69533A27781E6900613F33 /* SlideModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE6953242777EFEF00613F33 /* SlideModel.swift */,
+			);
+			path = SlideModel;
+			sourceTree = "<group>";
+		};
+		BE69533B27781E7500613F33 /* TripModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE695332277806E400613F33 /* TripDetailModel.swift */,
+			);
+			path = TripModel;
+			sourceTree = "<group>";
+		};
+		BE69533C27781E8F00613F33 /* ViewModelPresentable */ = {
+			isa = PBXGroup;
+			children = (
+				BE6953272777F15400613F33 /* ViewModelPresentable.swift */,
+			);
+			path = ViewModelPresentable;
+			sourceTree = "<group>";
+		};
+		BE69533D27781EA400613F33 /* TripModelPresentable */ = {
+			isa = PBXGroup;
+			children = (
+				BE695334277808A000613F33 /* TripModelPresentable.swift */,
+			);
+			path = TripModelPresentable;
+			sourceTree = "<group>";
+		};
+		BE69533E27781EC600613F33 /* SlideViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE6953292777F1B900613F33 /* SlideViewModel.swift */,
+			);
+			path = SlideViewModel;
+			sourceTree = "<group>";
+		};
+		BE69533F27781EDE00613F33 /* TripVIewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE695336277808D800613F33 /* TripViewModel.swift */,
+			);
+			path = TripVIewModel;
+			sourceTree = "<group>";
+		};
+		BE69534027781EF800613F33 /* SlideCell */ = {
+			isa = PBXGroup;
+			children = (
+				BE6953202777EE1300613F33 /* SlideTableViewCell.swift */,
+			);
+			path = SlideCell;
+			sourceTree = "<group>";
+		};
+		BE69534127781F0600613F33 /* TripCell */ = {
+			isa = PBXGroup;
+			children = (
+				BE695338277809E700613F33 /* TripTableCell.swift */,
+			);
+			path = TripCell;
+			sourceTree = "<group>";
+		};
+		BE69534227781F4F00613F33 /* TripDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				BE69534327781F7B00613F33 /* TripDetailViewController.swift */,
+			);
+			path = TripDetailView;
+			sourceTree = "<group>";
+		};
+		BE6953452778202200613F33 /* TripDetailModel */ = {
+			isa = PBXGroup;
+			children = (
+				BE6953462778204B00613F33 /* TripViewDetailModel.swift */,
+			);
+			path = TripDetailModel;
+			sourceTree = "<group>";
+		};
+		BE6953482778208500613F33 /* TripDetailCells */ = {
+			isa = PBXGroup;
+			children = (
+				BE695349277820A500613F33 /* firstDetailCell.swift */,
+				BE69534B277820B800613F33 /* secondDetailCell.swift */,
+				BE69534D277820CE00613F33 /* thirdDetailCell.swift */,
+				BE69534F277820E500613F33 /* fourthDetailCell.swift */,
+				BE695351277820F700613F33 /* fifthDetailCell.swift */,
+				BE6953532778210B00613F33 /* sixthDetailCell.swift */,
+			);
+			path = TripDetailCells;
+			sourceTree = "<group>";
+		};
+		BE6AA3B82776389F003FA49B /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				BE6AA3B9277638BB003FA49B /* Assets.swift */,
+				BE6AA3BB277638CC003FA49B /* Fonts.swift */,
+				BE6AA3BE277638E2003FA49B /* Strings.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		BED38C7327774EE90058CAB1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BE6952D927776C6700613F33 /* Montserrat-Black.ttf */,
+				BE6952D827776C6700613F33 /* Montserrat-BlackItalic.ttf */,
+				BE6952E827776C6800613F33 /* Montserrat-Bold.ttf */,
+				BE6952DC27776C6700613F33 /* Montserrat-BoldItalic.ttf */,
+				BE6952DB27776C6700613F33 /* Montserrat-ExtraBold.ttf */,
+				BE6952E127776C6800613F33 /* Montserrat-ExtraBoldItalic.ttf */,
+				BE6952E427776C6800613F33 /* Montserrat-ExtraLight.ttf */,
+				BE6952DD27776C6700613F33 /* Montserrat-ExtraLightItalic.ttf */,
+				BE6952E527776C6800613F33 /* Montserrat-Italic.ttf */,
+				BE6952E727776C6800613F33 /* Montserrat-Light.ttf */,
+				BE6952E627776C6800613F33 /* Montserrat-LightItalic.ttf */,
+				BE6952E327776C6800613F33 /* Montserrat-Medium.ttf */,
+				BE6952E027776C6800613F33 /* Montserrat-MediumItalic.ttf */,
+				BE6952DE27776C6700613F33 /* Montserrat-Regular.ttf */,
+				BE6952DF27776C6700613F33 /* Montserrat-SemiBold.ttf */,
+				BE6952DA27776C6700613F33 /* Montserrat-SemiBoldItalic.ttf */,
+				BE6952D727776C6600613F33 /* Montserrat-Thin.ttf */,
+				BE6952E227776C6800613F33 /* Montserrat-ThinItalic.ttf */,
+				BE6952E927776C6800613F33 /* OFL.txt */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +437,15 @@
 			dependencies = (
 			);
 			name = myTaxiAppDemo.Programmatic;
+			packageProductDependencies = (
+				BED474B227773089009EEB75 /* SnapKit */,
+				BED474B727773589009EEB75 /* Alamofire */,
+				BED474BB2777416E009EEB75 /* GoogleMaps */,
+				BED474BD2777416E009EEB75 /* GooglePlaces */,
+				BE6952C327775E7000613F33 /* Localize_Swift */,
+				BE6952CA277761D200613F33 /* PanModal */,
+				BE69531B2777E57000613F33 /* LGSideMenuController */,
+			);
 			productName = myTaxiAppDemo.Programmatic;
 			productReference = BE2B197C27763183009472E7 /* myTaxiAppDemo.Programmatic.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +472,18 @@
 			knownRegions = (
 				en,
 				Base,
+				uz,
+				"uz-Cyrl",
 			);
 			mainGroup = BE2B197327763183009472E7;
+			packageReferences = (
+				BED474B127773089009EEB75 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				BED474B627773589009EEB75 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				BED474BA2777416E009EEB75 /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */,
+				BE6952C227775E7000613F33 /* XCRemoteSwiftPackageReference "Localize-Swift" */,
+				BE6952C9277761D200613F33 /* XCRemoteSwiftPackageReference "PanModal" */,
+				BE69531A2777E57000613F33 /* XCRemoteSwiftPackageReference "LGSideMenuController" */,
+			);
 			productRefGroup = BE2B197D27763183009472E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +498,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE6952FA27776C6800613F33 /* Montserrat-Light.ttf in Resources */,
+				BE6952F127776C6800613F33 /* Montserrat-Regular.ttf in Resources */,
+				BE6952EA27776C6800613F33 /* Montserrat-Thin.ttf in Resources */,
+				BE6952F327776C6800613F33 /* Montserrat-MediumItalic.ttf in Resources */,
+				BE6952F227776C6800613F33 /* Montserrat-SemiBold.ttf in Resources */,
+				BE6952F627776C6800613F33 /* Montserrat-Medium.ttf in Resources */,
+				BE6952EC27776C6800613F33 /* Montserrat-Black.ttf in Resources */,
+				BE6952F827776C6800613F33 /* Montserrat-Italic.ttf in Resources */,
+				BE6952F027776C6800613F33 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				BE6952F927776C6800613F33 /* Montserrat-LightItalic.ttf in Resources */,
+				BE6952ED27776C6800613F33 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				BE6952FC27776C6800613F33 /* OFL.txt in Resources */,
 				BE2B198C27763184009472E7 /* LaunchScreen.storyboard in Resources */,
+				BE6952EB27776C6800613F33 /* Montserrat-BlackItalic.ttf in Resources */,
+				BE6952F527776C6800613F33 /* Montserrat-ThinItalic.ttf in Resources */,
 				BE2B198927763184009472E7 /* Assets.xcassets in Resources */,
-				BE2B198727763183009472E7 /* Main.storyboard in Resources */,
+				BE6952F727776C6800613F33 /* Montserrat-ExtraLight.ttf in Resources */,
+				BE6952EE27776C6800613F33 /* Montserrat-ExtraBold.ttf in Resources */,
+				BE6952F427776C6800613F33 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				BE6952EF27776C6800613F33 /* Montserrat-BoldItalic.ttf in Resources */,
+				BE6952FB27776C6800613F33 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +529,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2B198427763183009472E7 /* ViewController.swift in Sources */,
+				BE69530D277781E400613F33 /* UILabel + extensions.swift in Sources */,
+				BE69532A2777F1B900613F33 /* SlideViewModel.swift in Sources */,
+				BE695350277820E500613F33 /* fourthDetailCell.swift in Sources */,
+				BE6953132777AB9800613F33 /* UIColor + Extension.swift in Sources */,
+				BE6953542778210B00613F33 /* sixthDetailCell.swift in Sources */,
+				BE6AA3BC277638CC003FA49B /* Fonts.swift in Sources */,
+				BE69534427781F7C00613F33 /* TripDetailViewController.swift in Sources */,
+				BE6953172777AC3300613F33 /* UIStackView + Extension.swift in Sources */,
+				BE695337277808D800613F33 /* TripViewModel.swift in Sources */,
+				BE69531E2777E68D00613F33 /* SideMenuViewController.swift in Sources */,
+				BE6953472778204B00613F33 /* TripViewDetailModel.swift in Sources */,
 				BE2B198027763183009472E7 /* AppDelegate.swift in Sources */,
-				BE2B198227763183009472E7 /* SceneDelegate.swift in Sources */,
+				BE69534C277820B800613F33 /* secondDetailCell.swift in Sources */,
+				BE6AA3BF277638E2003FA49B /* Strings.swift in Sources */,
+				BE69534A277820A500613F33 /* firstDetailCell.swift in Sources */,
+				BE6953212777EE1300613F33 /* SlideTableViewCell.swift in Sources */,
+				BE6953282777F15400613F33 /* ViewModelPresentable.swift in Sources */,
+				BE695352277820F700613F33 /* fifthDetailCell.swift in Sources */,
+				BE2B1994277631F1009472E7 /* HomeVC.swift in Sources */,
+				BE695335277808A000613F33 /* TripModelPresentable.swift in Sources */,
+				BE6953252777EFEF00613F33 /* SlideModel.swift in Sources */,
+				BE695339277809E700613F33 /* TripTableCell.swift in Sources */,
+				BE69531027778B5800613F33 /* HomeVCProtocols.swift in Sources */,
+				BE69534E277820CE00613F33 /* thirdDetailCell.swift in Sources */,
+				BE6AA3BA277638BB003FA49B /* Assets.swift in Sources */,
+				BE6953152777ABB700613F33 /* UIView + Extension.swift in Sources */,
+				BE69532D2777F25E00613F33 /* Table view + resouble.swift in Sources */,
+				BE695331277801C400613F33 /* TripHistoryVC.swift in Sources */,
+				BE695333277806E400613F33 /* TripDetailModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE2B198527763183009472E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE2B198627763183009472E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE2B198A27763184009472E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -217,7 +626,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +681,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,6 +696,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q66Z2U846T;
@@ -294,7 +704,6 @@
 				INFOPLIST_FILE = myTaxiAppDemo.Programmatic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,8 +711,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "team.myTaxiAppDemo-Programmatic";
+				PRODUCT_BUNDLE_IDENTIFIER = MyTaxiAppDemoGroup.sign.co;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,6 +725,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q66Z2U846T;
@@ -322,7 +733,6 @@
 				INFOPLIST_FILE = myTaxiAppDemo.Programmatic/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,8 +740,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "team.myTaxiAppDemo-Programmatic";
+				PRODUCT_BUNDLE_IDENTIFIER = MyTaxiAppDemoGroup.sign.coms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,6 +771,95 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BE6952C227775E7000613F33 /* XCRemoteSwiftPackageReference "Localize-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Localize-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		BE6952C9277761D200613F33 /* XCRemoteSwiftPackageReference "PanModal" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/slackhq/PanModal";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		BE69531A2777E57000613F33 /* XCRemoteSwiftPackageReference "LGSideMenuController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Friend-LGA/LGSideMenuController";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		BED474B127773089009EEB75 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		BED474B627773589009EEB75 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		BED474BA2777416E009EEB75 /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/YAtechnologies/GoogleMaps-SP";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BE6952C327775E7000613F33 /* Localize_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE6952C227775E7000613F33 /* XCRemoteSwiftPackageReference "Localize-Swift" */;
+			productName = Localize_Swift;
+		};
+		BE6952CA277761D200613F33 /* PanModal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE6952C9277761D200613F33 /* XCRemoteSwiftPackageReference "PanModal" */;
+			productName = PanModal;
+		};
+		BE69531B2777E57000613F33 /* LGSideMenuController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BE69531A2777E57000613F33 /* XCRemoteSwiftPackageReference "LGSideMenuController" */;
+			productName = LGSideMenuController;
+		};
+		BED474B227773089009EEB75 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BED474B127773089009EEB75 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		BED474B727773589009EEB75 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BED474B627773589009EEB75 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		BED474BB2777416E009EEB75 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BED474BA2777416E009EEB75 /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */;
+			productName = GoogleMaps;
+		};
+		BED474BD2777416E009EEB75 /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BED474BA2777416E009EEB75 /* XCRemoteSwiftPackageReference "GoogleMaps-SP" */;
+			productName = GooglePlaces;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BE2B197427763183009472E7 /* Project object */;
 }
